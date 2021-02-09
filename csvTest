@@ -25,7 +25,7 @@ public class trainsTs {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
-			System.out.println(records);
+			records.forEach(System.out::println);
 			}
 		}
 	}
